@@ -1,0 +1,53 @@
+.newPost {
+    display: block;
+    width: 50%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #9fa8da;
+    border-radius: 3px;
+    color: #fff;
+    background: #c3c9f6;
+    padding: 10px 40px;
+    outline: none;
+    margin: 10vh auto;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #9fa8da;
+    cursor: pointer;
+}
+
+textarea {
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;
+    min-height: 8rem;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 300;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    box-shadow: 18px 18px 30px #D1D9E9,
+    -18px -18px 30px #FFFFFF;
+    resize: vertical;
+    transition: ease .2s;
+    cursor: pointer;
+}
+
+textarea::placeholder {
+    color: #9fa8da;
+}
+
+textarea:focus {
+    min-height: 12rem;
+    box-shadow: inset 18px 18px 30px #D1D9E9,
+    inset -18px -18px 30px #FFFFFF;
+}

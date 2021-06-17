@@ -1,0 +1,12 @@
+.error{
+    border: 2px solid red;
+}
+.formValidate {
+   line-height: 30px;
+}
+.formValidate span{
+    color: red;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}

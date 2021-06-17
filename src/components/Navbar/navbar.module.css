@@ -1,0 +1,25 @@
+.nav {
+    grid-area: n;
+    background: #ece7e7;
+}
+.ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ab9494
+}
+.ul li a:hover {
+    color: darkblue;
+}
+.ul li a.active {
+    color: darkblue;
+}
+

@@ -1,0 +1,7 @@
+.friend img{
+    width: 60px;
+}
+.friend h3{
+    display: flex;
+    align-items: center;
+}

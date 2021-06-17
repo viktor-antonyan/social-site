@@ -1,0 +1,19 @@
+.content {
+    grid-area: c;
+}
+.img {
+    width: 100%;
+}
+.profileDiv {
+    display: flex;
+    padding: 9px;
+}
+.profileInput {
+    padding: 3px;
+}
+.imgDiv .profileInput {
+    width: 500px;
+}
+.imgDiv {
+    width: 500px;
+}

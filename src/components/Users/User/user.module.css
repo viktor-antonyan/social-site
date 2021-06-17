@@ -1,0 +1,51 @@
+.users {
+    /*display: flex;*/
+    padding: 30px;
+}
+.imgDiv {
+   display: flex;
+   width: 900px;
+}
+.imgDiv img {
+    width: 108px;
+    height: 108px;
+    margin-left: 60px;
+}
+.status {
+    border: 1px solid #9fa8da;
+    margin: auto;
+    width: 600px;
+    /*height: 90px;*/
+    border-radius: 10px;
+    padding: 30px;
+}
+.status div {
+    display: flex;
+    justify-content: space-between;
+    /*line-height: 10px;*/
+    padding: 3px;
+}
+.status div h3{
+    font-size: 15px;
+    color: #72706f;
+}
+.status div p{
+    color: #353333;
+}
+.btnDiv button {
+    border: 1px solid #9fa8da;
+    border-radius: 3px;
+    color: #151414;
+    background: #c3c9f6;
+    padding: 5px 20px;
+    outline: none;
+    margin-left: 60px;
+}
+.btnDiv button:hover {
+    background: #fff;
+    /*color: #9fa8da;*/
+    cursor: pointer;
+}
+button:disabled{
+    cursor:not-allowed !important;
+}

@@ -1,0 +1,49 @@
+.content {
+    grid-area: c;
+}
+
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+}
+
+.items {
+    padding: 30px;
+}
+
+.user {
+    padding: 20px;
+}
+
+.messages {
+    padding: 30px;
+}
+
+.message {
+    padding: 20px;
+}
+.btn {
+    border: 1px solid #9fa8da;
+    border-radius: 3px;
+    color: #fff;
+    background: #c3c9f6;
+    padding: 10px 40px;
+    outline: none;
+    margin: 10vh auto;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #9fa8da;
+    cursor: pointer;
+}
+.textareaDiv textarea{
+    display: block;
+    width: 50%;
+    max-width: 900px;
+    margin: auto;
+}
+.textareaDiv button {
+    display: flex;
+    justify-content: center;
+}
